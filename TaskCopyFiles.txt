@@ -1,0 +1,8 @@
+1. + Скопировать файлы *.zip с датой создания не позже вчерашней и год не раньше 2019 из P:\TaskFiles\ZIP
+в папку P:\TaskFiles\PROCESS_ZIP
+2. + Распаковать файлы из папки P:\TaskFiles\PROCESS_ZIP , включая вложенные, в папку P:\TaskFiles\PROCESS_CSV
+3. Переименовать файлы в папке P:\TaskFiles\PROCESS_CSV\*.csv по шаблону r'(a-z,A-Z)+'
+4. Обработать полученные файлы. (Распечатать названия файлов в log)
+5. Перенести файлы P:\TaskFiles\PROCESS_CSV\*.csv в P:\TaskFiles\ARH_CSV\*.csv 
+6. + Заархивировать файлы P:\TaskFiles\PROCESS_CSV\*.csv в файл P:\TaskFiles\ARH_CSV\yyyymmddHHmm.zip
+7. + Удалить P:\TaskFiles\PROCESS_CSV\*.csv
